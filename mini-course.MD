@@ -7,22 +7,22 @@
   - CSS
   - Javascript (JS)
 - HTML is the structure of the web page
+  - HTML stands for "Hyper-Text Markup Language" but everyone just says HTML
   - Similar to an outline which has many items at different hierarchy levels
   - Hierarchy levels allow you to control items together for styling
   - HTML is the core of the web page and links to the CSS and JS files
-  - HTML stands for "Hyper-Text Markup Language" but everyone just says HTML
 - CSS is the styling of the web page
+  - CSS stands for "Cascading Style Sheet" but everyone says CSS
   - Colors
   - Spacing
   - Size
   - Dynamically scale for small to large screens
-  - CSS stands for "Cascading Style Sheet" but everyone says CSS
 - Javascript (JS) is the programmed action of the web page
+  - When speaking we say "Javascript" but when writing we often abbreviate it "JS"
   - Button clicks create an event which can trigger a javascript function
   - Keyboard clicks are also events which can trigger a response
   - A page initial startup is also an event which can trigger a function
   - Functions are sections of code that receive a parameters as an input and can generate an output
-  - When speaking we say "Javascript" but when writing we often abbreviate it "JS"
   - CSS and HTML are not programming languages but JS is.
 
 ## VS Code
@@ -72,5 +72,5 @@
 ## Project - poppycat
 
 - Create html structure of tags: h, div, img, buttons
-- Create css styling: color, display, animation
-- Create js actions to work with buttons and clicks, add / removee styling, change text, variable counter
+- Create css styling: color, display, spacing, animation
+- Program js actions to work with buttons and clicks, add / removee styling, change text, variable counter
