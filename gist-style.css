@@ -1,3 +1,7 @@
+.theme-dark {
+  color-scheme: dark;
+}
+
 .container {
   max-width: 800px;
   display: flex;
