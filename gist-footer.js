@@ -31,5 +31,8 @@ let myGistHref = tags[1].href;
 // Update footer
 footer.innerHTML = `<a href="${myGistHref}">${myGist}</a> made with ❤ by <a href="${myAccountHref}">${myAccount}</a>`;
 
-// Remove extra link
-document.querySelector(".container link").href = "";
+// Remove extra link if exists
+let linkExtra = document.querySelector(".container link");
+if (linkExtra) {
+  linkExtra.remove();
+}
