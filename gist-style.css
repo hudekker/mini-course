@@ -7,7 +7,9 @@
 .theme-dark {
   color-scheme: dark;
 }
-
+.p-5 {
+  padding: 20px 0 !important;
+}
 .container {
   max-width: 800px;
   display: flex;
@@ -19,13 +21,13 @@
 .my-btn {
   border-radius: 10px;
   padding: 5px;
-  background-color: aquamarine;
+  background-color: navy;
   box-shadow: 1.25px 1.25px 0.7px grey;
 }
 
 .my-btn-flex {
   display: flex;
-  justify-content: space-between;
+  align-self: flex-end;
 }
 
 .gist-meta {
@@ -52,6 +54,9 @@ h4 {
 @media (max-width: 425px) {
   .gist {
     max-width: 390px !important;
+  }
+  .my-btn-flex {
+    align-self: center;
   }
 }
 @media (max-width: 390px) {

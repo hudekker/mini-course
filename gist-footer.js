@@ -7,7 +7,8 @@ for (let atag of atags) {
 }
 
 // add in print button
-let h1 = document.querySelector("#online-help");
+let h1 = document.querySelector("#print-button");
+// let h1 = document.querySelector("#online-help");
 if (h1) {
   h1.innerHTML += `  <button class="my-btn" onclick="window.print();return false;">
       <i class="fas fa-print"></i> Print
